@@ -31,9 +31,9 @@ using System.Dynamic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Converters
+namespace Mapbox.Json.Converters
 {
     /// <summary>
     /// Converts an <see cref="ExpandoObject"/> to and from JSON.

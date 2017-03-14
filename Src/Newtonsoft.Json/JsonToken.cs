@@ -27,7 +27,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Newtonsoft.Json
+namespace Mapbox.Json
 {
     /// <summary>
     /// Specifies the type of JSON token.

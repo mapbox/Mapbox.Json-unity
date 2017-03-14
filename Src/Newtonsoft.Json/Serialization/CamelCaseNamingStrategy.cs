@@ -1,6 +1,6 @@
-﻿using Newtonsoft.Json.Utilities;
+﻿using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Serialization
+namespace Mapbox.Json.Serialization
 {
     /// <summary>
     /// A camel case naming strategy.

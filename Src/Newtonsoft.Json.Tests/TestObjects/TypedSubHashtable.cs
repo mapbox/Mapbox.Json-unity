@@ -25,7 +25,7 @@
 
 using System.Collections;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Mapbox.Json.Tests.TestObjects
 {
 #if !(DNXCORE50)
     public class TypedSubHashtable

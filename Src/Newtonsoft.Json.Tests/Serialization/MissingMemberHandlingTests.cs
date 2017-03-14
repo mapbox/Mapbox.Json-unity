@@ -26,8 +26,8 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Tests.TestObjects;
+using Mapbox.Json.Converters;
+using Mapbox.Json.Tests.TestObjects;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -37,7 +37,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Mapbox.Json.Tests.Serialization
 {
     [TestFixture]
     public class MissingMemberHandlingTests : TestFixtureBase

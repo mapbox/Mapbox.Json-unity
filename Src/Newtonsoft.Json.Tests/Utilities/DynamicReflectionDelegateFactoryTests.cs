@@ -34,19 +34,19 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
-using Newtonsoft.Json.Tests.Serialization;
+using Mapbox.Json.Serialization;
+using Mapbox.Json.Utilities;
+using Mapbox.Json.Tests.TestObjects;
+using Mapbox.Json.Tests.TestObjects.Organization;
+using Mapbox.Json.Tests.Serialization;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Utilities
+namespace Mapbox.Json.Tests.Utilities
 {
     [TestFixture]
     public class DynamicReflectionDelegateFactoryTests : TestFixtureBase

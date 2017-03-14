@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Schema
+namespace Mapbox.Json.Schema
 {
     /// <summary>
     /// <para>

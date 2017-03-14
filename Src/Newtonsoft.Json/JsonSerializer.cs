@@ -30,13 +30,13 @@ using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Runtime.Serialization.Formatters;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Converters;
+using Mapbox.Json.Serialization;
+using Mapbox.Json.Utilities;
 using System.Runtime.Serialization;
-using ErrorEventArgs = Newtonsoft.Json.Serialization.ErrorEventArgs;
+using ErrorEventArgs = Mapbox.Json.Serialization.ErrorEventArgs;
 
-namespace Newtonsoft.Json
+namespace Mapbox.Json
 {
     /// <summary>
     /// Serializes and deserializes objects into and from the JSON format.

@@ -24,10 +24,10 @@
 #endregion
 
 using System;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 using System.Globalization;
 
-namespace Newtonsoft.Json.Serialization
+namespace Mapbox.Json.Serialization
 {
     internal class DefaultReferenceResolver : IReferenceResolver
     {

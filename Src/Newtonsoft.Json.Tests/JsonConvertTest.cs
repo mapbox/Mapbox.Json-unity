@@ -27,7 +27,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using Newtonsoft.Json.Schema;
+using Mapbox.Json.Schema;
 #if !(NET20 || NET35 || PORTABLE40 || PORTABLE) || NETSTANDARD1_1
 using System.Numerics;
 #endif
@@ -37,13 +37,13 @@ using System.Text;
 using System.Threading.Tasks;
 #endif
 using System.Xml;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Converters;
+using Mapbox.Json.Linq;
+using Mapbox.Json.Serialization;
+using Mapbox.Json.Tests.Serialization;
+using Mapbox.Json.Tests.TestObjects;
+using Mapbox.Json.Tests.TestObjects.Organization;
+using Mapbox.Json.Utilities;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -53,7 +53,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests
+namespace Mapbox.Json.Tests
 {
     [TestFixture]
     public class JsonConvertTest : TestFixtureBase

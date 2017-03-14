@@ -25,7 +25,7 @@
 
 using System;
 
-namespace Newtonsoft.Json.Tests.TestObjects.Organization
+namespace Mapbox.Json.Tests.TestObjects.Organization
 {
     public interface IPerson
     {

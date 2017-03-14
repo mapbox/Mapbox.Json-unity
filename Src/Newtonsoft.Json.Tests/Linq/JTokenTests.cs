@@ -29,7 +29,7 @@ using System.Collections.Generic;
 using System.Numerics;
 #endif
 using System.Text;
-using Newtonsoft.Json.Converters;
+using Mapbox.Json.Converters;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -37,17 +37,17 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Linq;
+using Mapbox.Json.Linq;
 using System.IO;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Linq
+namespace Mapbox.Json.Tests.Linq
 {
     [TestFixture]
     public class JTokenTests : TestFixtureBase

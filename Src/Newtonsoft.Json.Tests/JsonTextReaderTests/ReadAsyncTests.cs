@@ -27,7 +27,7 @@
 
 using System;
 using System.Globalization;
-using Newtonsoft.Json.Linq;
+using Mapbox.Json.Linq;
 #if !PORTABLE || NETSTANDARD1_1
 using System.Numerics;
 #endif
@@ -45,10 +45,10 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Linq;
-using Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Tests.TestObjects.JsonTextReaderTests;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Tests.JsonTextReaderTests
+namespace Mapbox.Json.Tests.JsonTextReaderTests
 {
     [TestFixture]
 #if !DNXCORE50

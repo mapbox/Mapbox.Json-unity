@@ -30,15 +30,15 @@ using System.Globalization;
 #if HAVE_BIG_INTEGER
 using System.Numerics;
 #endif
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Serialization;
+using Mapbox.Json.Utilities;
 #if !HAVE_LINQ
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
 
-namespace Newtonsoft.Json
+namespace Mapbox.Json
 {
     /// <summary>
     /// Represents a reader that provides fast, non-cached, forward-only access to serialized JSON data.

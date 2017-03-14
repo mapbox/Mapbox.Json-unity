@@ -27,8 +27,8 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Schema;
+using Mapbox.Json.Linq;
+using Mapbox.Json.Schema;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -38,7 +38,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Schema
+namespace Mapbox.Json.Tests.Schema
 {
     [TestFixture]
     public class JsonSchemaTests : TestFixtureBase

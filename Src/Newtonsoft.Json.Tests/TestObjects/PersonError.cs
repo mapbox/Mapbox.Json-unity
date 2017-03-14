@@ -26,9 +26,9 @@
 using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Serialization;
+using Mapbox.Json.Serialization;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Mapbox.Json.Tests.TestObjects
 {
     public class PersonError
     {

@@ -25,7 +25,7 @@
 
 using System.Collections.Generic;
 
-namespace Newtonsoft.Json.Tests.TestObjects.Organization
+namespace Mapbox.Json.Tests.TestObjects.Organization
 {
     public class Manager : Employee
     {

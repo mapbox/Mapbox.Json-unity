@@ -28,11 +28,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
-using Newtonsoft.Json.Linq;
+using Mapbox.Json.Linq;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -42,7 +42,7 @@ using NUnit.Framework;
 #endif
 using System.IO;
 
-namespace Newtonsoft.Json.Tests.Linq
+namespace Mapbox.Json.Tests.Linq
 {
     [TestFixture]
     public class JPropertyTests : TestFixtureBase

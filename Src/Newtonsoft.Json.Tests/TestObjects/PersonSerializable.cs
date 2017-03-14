@@ -25,7 +25,7 @@
 
 using System;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Mapbox.Json.Tests.TestObjects
 {
 #if !(PORTABLE || DNXCORE50)
     [Serializable]

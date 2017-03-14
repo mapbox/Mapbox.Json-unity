@@ -30,9 +30,9 @@ using System.Globalization;
 #if HAVE_BIG_INTEGER
 using System.Numerics;
 #endif
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json
+namespace Mapbox.Json
 {
     internal enum ReadType
     {

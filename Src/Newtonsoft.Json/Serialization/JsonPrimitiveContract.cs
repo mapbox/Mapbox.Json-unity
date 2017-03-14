@@ -25,9 +25,9 @@
 
 using System;
 using System.Collections.Generic;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Serialization
+namespace Mapbox.Json.Serialization
 {
     /// <summary>
     /// Contract details for a <see cref="Type"/> used by the <see cref="JsonSerializer"/>.

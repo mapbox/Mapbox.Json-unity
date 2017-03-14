@@ -27,9 +27,9 @@ using System;
 using System.Globalization;
 using System.IO;
 using System.Text;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Bson
+namespace Mapbox.Json.Bson
 {
     internal class BsonBinaryWriter
     {

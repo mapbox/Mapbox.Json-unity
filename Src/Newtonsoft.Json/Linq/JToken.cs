@@ -25,7 +25,7 @@
 
 using System;
 using System.Collections.Generic;
-using Newtonsoft.Json.Linq.JsonPath;
+using Mapbox.Json.Linq.JsonPath;
 #if HAVE_DYNAMIC
 using System.Dynamic;
 using System.Linq.Expressions;
@@ -35,18 +35,18 @@ using System.IO;
 using System.Numerics;
 #endif
 using System.Text;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 using System.Diagnostics;
 using System.Globalization;
 using System.Collections;
 #if !HAVE_LINQ
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Linq
+namespace Mapbox.Json.Linq
 {
     /// <summary>
     /// Represents an abstract JSON token.

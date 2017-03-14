@@ -29,9 +29,9 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json
+namespace Mapbox.Json
 {
     public abstract partial class JsonReader
     {

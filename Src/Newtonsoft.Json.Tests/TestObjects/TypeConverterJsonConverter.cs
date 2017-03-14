@@ -26,13 +26,13 @@
 using System;
 using System.ComponentModel;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Mapbox.Json.Tests.TestObjects
 {
 #if !(NET35 || NET20 || PORTABLE || PORTABLE40)
     internal class TypeConverterJsonConverter : JsonConverter

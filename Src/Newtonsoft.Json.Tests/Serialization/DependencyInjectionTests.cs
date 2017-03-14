@@ -25,8 +25,8 @@
 
 #if !(NET40 || NET35 || NET20 || DNXCORE50 || PORTABLE || PORTABLE40)
 using Autofac;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
+using Mapbox.Json.Serialization;
+using Mapbox.Json.Tests.TestObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,7 +36,7 @@ using System.Threading.Tasks;
 using Autofac.Core;
 using Autofac.Core.Activators.Reflection;
 using Microsoft.FSharp.Collections;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
+using Mapbox.Json.Tests.TestObjects.Organization;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -46,7 +46,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Mapbox.Json.Tests.Serialization
 {
     public interface IBase
     {

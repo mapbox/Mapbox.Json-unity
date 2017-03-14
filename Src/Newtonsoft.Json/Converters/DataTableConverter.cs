@@ -27,12 +27,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 using System;
 using System.Data;
-using Newtonsoft.Json.Serialization;
+using Mapbox.Json.Serialization;
 
-namespace Newtonsoft.Json.Converters
+namespace Mapbox.Json.Converters
 {
     /// <summary>
     /// Converts a <see cref="DataTable"/> to and from JSON.

@@ -25,9 +25,9 @@
 
 using System;
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Serialization;
+using Mapbox.Json.Serialization;
 
-namespace Newtonsoft.Json
+namespace Mapbox.Json
 {
     /// <summary>
     /// Specifies the member serialization options for the <see cref="JsonSerializer"/>.

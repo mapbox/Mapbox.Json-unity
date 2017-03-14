@@ -28,11 +28,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
+using Mapbox.Json.Serialization;
+using Mapbox.Json.Tests.TestObjects;
+using Mapbox.Json.Tests.TestObjects.Organization;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Mapbox.Json.Tests.TestObjects
 {
     public class VersionKeyedCollection : KeyedCollection<string, Person>, IEnumerable<Person>
     {

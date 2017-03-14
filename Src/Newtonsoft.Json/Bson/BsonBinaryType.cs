@@ -25,7 +25,7 @@
 
 using System;
 
-namespace Newtonsoft.Json.Bson
+namespace Mapbox.Json.Bson
 {
     internal enum BsonBinaryType : byte
     {

@@ -27,7 +27,7 @@ using System;
 using System.Globalization;
 using System.Runtime.Serialization;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Mapbox.Json.Tests.TestObjects
 {
 #if !(DNXCORE50)
     public struct Ratio : IConvertible, IFormattable, ISerializable

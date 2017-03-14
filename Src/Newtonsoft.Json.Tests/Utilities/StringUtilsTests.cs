@@ -30,9 +30,9 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Tests.Utilities
+namespace Mapbox.Json.Tests.Utilities
 {
     [TestFixture]
     public class StringUtilsTests : TestFixtureBase

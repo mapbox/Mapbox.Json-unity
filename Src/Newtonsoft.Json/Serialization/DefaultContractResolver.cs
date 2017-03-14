@@ -25,7 +25,7 @@
 
 using System;
 using System.Collections;
-using Newtonsoft.Json.Schema;
+using Mapbox.Json.Schema;
 #if HAVE_CONCURRENT_COLLECTIONS
 using System.Collections.Concurrent;
 #endif
@@ -40,18 +40,18 @@ using System.Runtime.Serialization;
 #if HAVE_CAS
 using System.Security.Permissions;
 #endif
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Linq;
+using Mapbox.Json.Converters;
+using Mapbox.Json.Utilities;
+using Mapbox.Json.Linq;
 using System.Runtime.CompilerServices;
 #if !HAVE_LINQ
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Serialization
+namespace Mapbox.Json.Serialization
 {
     /// <summary>
     /// Used by <see cref="JsonSerializer"/> to resolve a <see cref="JsonContract"/> for a given <see cref="System.Type"/>.

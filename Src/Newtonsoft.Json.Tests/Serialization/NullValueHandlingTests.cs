@@ -25,7 +25,7 @@
 
 using System;
 using System.IO;
-using Newtonsoft.Json.Tests.TestObjects;
+using Mapbox.Json.Tests.TestObjects;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -35,7 +35,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Mapbox.Json.Tests.Serialization
 {
     [TestFixture]
     public class NullValueHandlingTests : TestFixtureBase

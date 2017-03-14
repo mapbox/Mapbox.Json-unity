@@ -1,4 +1,4 @@
-namespace Newtonsoft.Json.Linq
+namespace Mapbox.Json.Linq
 {
     /// <summary>
     /// Specifies how JSON arrays are merged together.

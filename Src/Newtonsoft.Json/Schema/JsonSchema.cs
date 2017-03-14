@@ -26,11 +26,11 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Linq;
+using Mapbox.Json.Utilities;
 using System.Globalization;
 
-namespace Newtonsoft.Json.Schema
+namespace Mapbox.Json.Schema
 {
     /// <summary>
     /// <para>

@@ -31,9 +31,9 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Linq;
+using Mapbox.Json.Linq;
 
-namespace Newtonsoft.Json.Tests.Linq
+namespace Mapbox.Json.Tests.Linq
 {
     [TestFixture]
     public class JTokenEqualityComparerTests : TestFixtureBase

@@ -32,10 +32,10 @@ using System.Threading;
 using System.Numerics;
 #endif
 using System.Threading.Tasks;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Serialization;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json
+namespace Mapbox.Json
 {
     public partial class JsonTextReader
     {

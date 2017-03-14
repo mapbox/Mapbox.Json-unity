@@ -39,11 +39,11 @@ using System.IO;
 #if !PORTABLE || NETSTANDARD1_1
 using System.Numerics;
 #endif
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Tests.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
+using Mapbox.Json.Linq;
+using Mapbox.Json.Tests.Serialization;
+using Mapbox.Json.Tests.TestObjects;
 
-namespace Newtonsoft.Json.Tests.Linq
+namespace Mapbox.Json.Tests.Linq
 {
     [TestFixture]
     public class JTokenReaderAsyncTests : TestFixtureBase

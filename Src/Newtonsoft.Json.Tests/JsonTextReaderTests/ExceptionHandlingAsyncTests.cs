@@ -40,9 +40,9 @@ using NUnit.Framework;
 #endif
 using System.IO;
 using System.Threading.Tasks;
-using Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests;
+using Mapbox.Json.Tests.TestObjects.JsonTextReaderTests;
 
-namespace Newtonsoft.Json.Tests.JsonTextReaderTests
+namespace Mapbox.Json.Tests.JsonTextReaderTests
 {
     [TestFixture]
 #if !DNXCORE50

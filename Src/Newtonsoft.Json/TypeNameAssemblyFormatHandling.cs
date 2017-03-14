@@ -23,7 +23,7 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-namespace Newtonsoft.Json
+namespace Mapbox.Json
 {
     /// <summary>
     /// Indicates the method that will be used during deserialization for locating and loading assemblies.

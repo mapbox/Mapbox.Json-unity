@@ -33,12 +33,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.GeometricForms;
-using Newtonsoft.Json.Tests.TestObjects.Money;
+using Mapbox.Json.Tests.TestObjects;
+using Mapbox.Json.Tests.TestObjects.GeometricForms;
+using Mapbox.Json.Tests.TestObjects.Money;
 using NUnit.Framework;
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace Mapbox.Json.Tests.Converters
 {
     [TestFixture]
     public class DiscriminatedUnionConverterTests : TestFixtureBase

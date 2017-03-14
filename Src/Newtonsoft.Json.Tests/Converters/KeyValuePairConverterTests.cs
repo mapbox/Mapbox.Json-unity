@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
+using Mapbox.Json.Converters;
+using Mapbox.Json.Serialization;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -12,7 +12,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace Mapbox.Json.Tests.Converters
 {
     [TestFixture]
     public class KeyValuePairConverterTests : TestFixtureBase

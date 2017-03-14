@@ -27,17 +27,17 @@ using System;
 using System.Globalization;
 using System.ComponentModel;
 using System.Collections.Generic;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Serialization;
+using Mapbox.Json.Linq;
+using Mapbox.Json.Utilities;
+using Mapbox.Json.Serialization;
 #if !HAVE_LINQ
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Schema
+namespace Mapbox.Json.Schema
 {
     /// <summary>
     /// <para>

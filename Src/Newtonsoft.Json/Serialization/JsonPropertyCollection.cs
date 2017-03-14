@@ -27,10 +27,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Collections.ObjectModel;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 using System.Globalization;
 
-namespace Newtonsoft.Json.Serialization
+namespace Mapbox.Json.Serialization
 {
     /// <summary>
     /// A collection of <see cref="JsonProperty"/> objects.

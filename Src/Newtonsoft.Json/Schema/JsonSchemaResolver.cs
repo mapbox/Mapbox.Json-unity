@@ -26,13 +26,13 @@
 using System;
 using System.Collections.Generic;
 #if !HAVE_LINQ
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Schema
+namespace Mapbox.Json.Schema
 {
     /// <summary>
     /// <para>

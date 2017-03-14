@@ -25,7 +25,7 @@
 
 using System.Runtime.Serialization;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Mapbox.Json.Tests.TestObjects
 {
 #if !(NET20 || NET35)
     [DataContract]

@@ -29,10 +29,10 @@ using System.Collections.Generic;
 using System.Dynamic;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 using System.Collections;
 
-namespace Newtonsoft.Json.Serialization
+namespace Mapbox.Json.Serialization
 {
     /// <summary>
     /// Contract details for a <see cref="Type"/> used by the <see cref="JsonSerializer"/>.

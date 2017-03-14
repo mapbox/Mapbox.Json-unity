@@ -28,11 +28,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Converters;
+using Mapbox.Json.Serialization;
+using Mapbox.Json.Tests.TestObjects;
+using Mapbox.Json.Tests.TestObjects.Organization;
+using Mapbox.Json.Utilities;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -40,19 +40,19 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Schema;
+using Mapbox.Json.Schema;
 using System.IO;
-using Newtonsoft.Json.Linq;
+using Mapbox.Json.Linq;
 using System.Text;
-using Extensions = Newtonsoft.Json.Schema.Extensions;
+using Extensions = Mapbox.Json.Schema.Extensions;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Schema
+namespace Mapbox.Json.Tests.Schema
 {
     [TestFixture]
     public class JsonSchemaGeneratorTests : TestFixtureBase

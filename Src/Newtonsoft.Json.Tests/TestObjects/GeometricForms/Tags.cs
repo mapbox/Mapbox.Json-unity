@@ -24,7 +24,7 @@
 #endregion
 
 #if !(NET35 || NET20 || DNXCORE50)
-namespace Newtonsoft.Json.Tests.TestObjects.GeometricForms
+namespace Mapbox.Json.Tests.TestObjects.GeometricForms
 {
     public static class Tags
     {

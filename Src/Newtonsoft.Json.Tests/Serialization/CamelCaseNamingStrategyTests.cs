@@ -25,7 +25,7 @@
 
 using System;
 using System.Collections.Generic;
-using Newtonsoft.Json.Serialization;
+using Mapbox.Json.Serialization;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -33,13 +33,13 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
-using Newtonsoft.Json.Linq;
+using Mapbox.Json.Tests.TestObjects;
+using Mapbox.Json.Tests.TestObjects.Organization;
+using Mapbox.Json.Linq;
 using System.Reflection;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Mapbox.Json.Tests.Serialization
 {
     [TestFixture]
     public class CamelCaseNamingStrategyTests : TestFixtureBase

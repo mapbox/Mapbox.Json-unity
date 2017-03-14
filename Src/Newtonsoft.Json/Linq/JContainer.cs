@@ -29,18 +29,18 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 #endif
 using System.Threading;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 using System.Collections;
 using System.Globalization;
 using System.ComponentModel;
 #if !HAVE_LINQ
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Linq
+namespace Mapbox.Json.Linq
 {
     /// <summary>
     /// Represents a token that can contain other tokens.

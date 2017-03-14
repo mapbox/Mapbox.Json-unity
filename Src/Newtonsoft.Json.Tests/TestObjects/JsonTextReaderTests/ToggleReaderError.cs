@@ -26,7 +26,7 @@
 using System;
 using System.IO;
 
-namespace Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests
+namespace Mapbox.Json.Tests.TestObjects.JsonTextReaderTests
 {
     public class ToggleReaderError : TextReader
     {

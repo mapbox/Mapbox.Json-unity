@@ -1,4 +1,4 @@
-﻿namespace Newtonsoft.Json.Utilities
+﻿namespace Mapbox.Json.Utilities
 {
 #if PORTABLE
 

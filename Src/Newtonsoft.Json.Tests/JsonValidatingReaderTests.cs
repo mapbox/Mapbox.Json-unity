@@ -28,7 +28,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #endif
 #if !(NET20 || NET35 || PORTABLE) || NETSTANDARD1_1
 using System.Numerics;
@@ -43,12 +43,12 @@ using NUnit.Framework;
 #endif
 using System.Xml;
 using System.Xml.Schema;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Schema;
-using Newtonsoft.Json.Utilities;
-using ValidationEventArgs = Newtonsoft.Json.Schema.ValidationEventArgs;
+using Mapbox.Json.Linq;
+using Mapbox.Json.Schema;
+using Mapbox.Json.Utilities;
+using ValidationEventArgs = Mapbox.Json.Schema.ValidationEventArgs;
 
-namespace Newtonsoft.Json.Tests
+namespace Mapbox.Json.Tests
 {
     [TestFixture]
     public class JsonValidatingReaderTests : TestFixtureBase

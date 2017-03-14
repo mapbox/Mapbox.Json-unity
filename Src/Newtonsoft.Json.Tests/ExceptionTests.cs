@@ -24,7 +24,7 @@
 #endregion
 
 using System;
-using Newtonsoft.Json.Schema;
+using Mapbox.Json.Schema;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -34,7 +34,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests
+namespace Mapbox.Json.Tests
 {
     [TestFixture]
     public class ExceptionTests : TestFixtureBase

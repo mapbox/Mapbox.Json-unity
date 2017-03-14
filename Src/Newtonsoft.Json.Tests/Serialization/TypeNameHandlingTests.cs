@@ -24,7 +24,7 @@
 #endregion
 
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
@@ -34,16 +34,16 @@ using System.Collections.ObjectModel;
 using System.Dynamic;
 #endif
 using System.Text;
-using Newtonsoft.Json.Tests.Linq;
+using Mapbox.Json.Tests.Linq;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Runtime.Serialization.Formatters;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
+using Mapbox.Json.Linq;
+using Mapbox.Json.Serialization;
+using Mapbox.Json.Tests.TestObjects;
+using Mapbox.Json.Tests.TestObjects.Organization;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -51,12 +51,12 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 using System.Net;
 using System.Runtime.Serialization;
 using System.IO;
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Mapbox.Json.Tests.Serialization
 {
     [TestFixture]
     public class TypeNameHandlingTests : TestFixtureBase
@@ -1930,7 +1930,7 @@ namespace Newtonsoft.Json.Tests.Serialization
             input.Add(new Stack<string>(new List<string> { "Seven", "Eight", "Nine" }));
 
             string serialized = JsonConvert.SerializeObject(input,
-                Newtonsoft.Json.Formatting.Indented,
+				Mapbox.Json.Formatting.Indented,
                 new JsonSerializerSettings
                 {
                     TypeNameHandling = TypeNameHandling.All,

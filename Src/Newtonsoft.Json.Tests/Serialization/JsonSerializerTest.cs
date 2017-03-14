@@ -49,28 +49,28 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json;
+using Mapbox.Json;
 using System.IO;
 using System.Collections;
 using System.Xml;
 using System.Xml.Serialization;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
-using Newtonsoft.Json.Bson;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Converters;
+using Mapbox.Json.Bson;
+using Mapbox.Json.Linq;
+using Mapbox.Json.Converters;
 #if !(NET20 || NET35)
 using System.Runtime.Serialization.Json;
 #endif
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.Linq;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Events;
-using Newtonsoft.Json.Tests.TestObjects.GeoCoding;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
+using Mapbox.Json.Serialization;
+using Mapbox.Json.Tests.Linq;
+using Mapbox.Json.Tests.TestObjects;
+using Mapbox.Json.Tests.TestObjects.Events;
+using Mapbox.Json.Tests.TestObjects.GeoCoding;
+using Mapbox.Json.Tests.TestObjects.Organization;
 using System.Runtime.Serialization;
 using System.Globalization;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 using System.Reflection;
 #if !NET20
 using System.Xml.Linq;
@@ -81,7 +81,7 @@ using System.Linq.Expressions;
 using System.Dynamic;
 #endif
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
@@ -90,7 +90,7 @@ using System.Drawing;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Mapbox.Json.Tests.Serialization
 {
     [TestFixture]
     public class JsonSerializerTest : TestFixtureBase
@@ -7746,7 +7746,7 @@ Path '', line 1, position 1.");
             string json = "{}";
             IList<string> errors = new List<string>();
 
-            EventHandler<Newtonsoft.Json.Serialization.ErrorEventArgs> error = (s, e) =>
+            EventHandler<Mapbox.Json.Serialization.ErrorEventArgs> error = (s, e) =>
             {
                 errors.Add(e.ErrorContext.Error.Message);
                 e.ErrorContext.Handled = true;
@@ -7771,7 +7771,7 @@ Path '', line 1, position 1.");
             string json = "{'NonAttributeProperty':null,'UnsetProperty':null,'AllowNullProperty':null,'AlwaysProperty':null}";
             IList<string> errors = new List<string>();
 
-            EventHandler<Newtonsoft.Json.Serialization.ErrorEventArgs> error = (s, e) =>
+            EventHandler<Mapbox.Json.Serialization.ErrorEventArgs> error = (s, e) =>
             {
                 errors.Add(e.ErrorContext.Error.Message);
                 e.ErrorContext.Handled = true;
@@ -7794,7 +7794,7 @@ Path '', line 1, position 1.");
         {
             IList<string> errors = new List<string>();
 
-            EventHandler<Newtonsoft.Json.Serialization.ErrorEventArgs> error = (s, e) =>
+            EventHandler<Mapbox.Json.Serialization.ErrorEventArgs> error = (s, e) =>
             {
                 errors.Add(e.ErrorContext.Error.Message);
                 e.ErrorContext.Handled = true;

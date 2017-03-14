@@ -28,7 +28,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
@@ -42,14 +42,14 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json;
+using Mapbox.Json;
 using System.IO;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Converters;
+using Mapbox.Json.Linq;
+using Mapbox.Json.Tests.TestObjects.JsonTextReaderTests;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Tests
+namespace Mapbox.Json.Tests
 {
     [TestFixture]
     public class JsonTextWriterTest : TestFixtureBase

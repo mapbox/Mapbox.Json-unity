@@ -35,18 +35,18 @@ using System.Collections.ObjectModel;
 using System.Globalization;
 using System.IO;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
 using System.Text;
 using System.Xml;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Events;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Linq;
+using Mapbox.Json.Serialization;
+using Mapbox.Json.Tests.TestObjects;
+using Mapbox.Json.Tests.TestObjects.Events;
+using Mapbox.Json.Tests.TestObjects.Organization;
+using Mapbox.Json.Utilities;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -58,7 +58,7 @@ using NUnit.Framework;
 using System.Xml.Linq;
 #endif
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Mapbox.Json.Tests.Serialization
 {
     [TestFixture]
     public class JsonSerializerCollectionsTests : TestFixtureBase

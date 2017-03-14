@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using Newtonsoft.Json.Linq;
+using Mapbox.Json.Linq;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Mapbox.Json.Tests.TestObjects
 {
     public class PersonRaw
     {

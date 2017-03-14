@@ -32,13 +32,13 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Xml;
-using Newtonsoft.Json.Serialization;
+using Mapbox.Json.Serialization;
 #if HAVE_XLINQ
 using System.Xml.Linq;
 #endif
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Converters
+namespace Mapbox.Json.Converters
 {
     #region XmlNodeWrappers
 #if HAVE_XML_DOCUMENT

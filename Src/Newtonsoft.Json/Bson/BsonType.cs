@@ -23,7 +23,7 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-namespace Newtonsoft.Json.Bson
+namespace Mapbox.Json.Bson
 {
     internal enum BsonType : sbyte
     {

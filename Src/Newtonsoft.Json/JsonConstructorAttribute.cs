@@ -25,7 +25,7 @@
 
 using System;
 
-namespace Newtonsoft.Json
+namespace Mapbox.Json
 {
     /// <summary>
     /// Instructs the <see cref="JsonSerializer"/> to use the specified constructor when deserializing that object.

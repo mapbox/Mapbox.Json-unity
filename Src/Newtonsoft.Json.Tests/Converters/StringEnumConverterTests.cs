@@ -30,7 +30,7 @@ using System.IO;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Text.RegularExpressions;
-using Newtonsoft.Json.Converters;
+using Mapbox.Json.Converters;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -38,9 +38,9 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Tests.TestObjects;
+using Mapbox.Json.Tests.TestObjects;
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace Mapbox.Json.Tests.Converters
 {
     [TestFixture]
     public class StringEnumConverterTests : TestFixtureBase

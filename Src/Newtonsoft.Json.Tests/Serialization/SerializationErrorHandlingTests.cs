@@ -28,11 +28,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.Serialization;
 using System.Text;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
+using Mapbox.Json.Converters;
+using Mapbox.Json.Serialization;
+using Mapbox.Json.Tests.TestObjects;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
@@ -44,10 +44,10 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 using System.IO;
-using Newtonsoft.Json.Linq;
-using ErrorEventArgs = Newtonsoft.Json.Serialization.ErrorEventArgs;
+using Mapbox.Json.Linq;
+using ErrorEventArgs = Mapbox.Json.Serialization.ErrorEventArgs;
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Mapbox.Json.Tests.Serialization
 {
     [TestFixture]
     public class SerializationErrorHandlingTests : TestFixtureBase
@@ -67,7 +67,7 @@ namespace Newtonsoft.Json.Tests.Serialization
             var json = "{\"myint\":3554860000,\"Mybool\":false}";
             var i = JsonConvert.DeserializeObject<MyClass1>(json, new JsonSerializerSettings
             {
-                Error = delegate (object sender, Newtonsoft.Json.Serialization.ErrorEventArgs args)
+                Error = delegate (object sender, Mapbox.Json.Serialization.ErrorEventArgs args)
                 {
                     errors.Add(args.ErrorContext.Error.Message);
                     args.ErrorContext.Handled = true;

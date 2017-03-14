@@ -26,7 +26,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Newtonsoft.Json.Schema
+namespace Mapbox.Json.Schema
 {
     /// <summary>
     /// <para>

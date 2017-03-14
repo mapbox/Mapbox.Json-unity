@@ -29,16 +29,16 @@ using System.IO;
 #if HAVE_BIG_INTEGER
 using System.Numerics;
 #endif
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 using System.Globalization;
 #if !HAVE_LINQ
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json
+namespace Mapbox.Json
 {
     /// <summary>
     /// Represents a writer that provides a fast, non-cached, forward-only way of generating JSON data.

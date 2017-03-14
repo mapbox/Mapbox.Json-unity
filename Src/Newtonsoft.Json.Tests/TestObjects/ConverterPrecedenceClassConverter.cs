@@ -25,10 +25,10 @@
 
 using System;
 using System.Globalization;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Linq;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Mapbox.Json.Tests.TestObjects
 {
     public abstract class ConverterPrecedenceClassConverter : JsonConverter
     {

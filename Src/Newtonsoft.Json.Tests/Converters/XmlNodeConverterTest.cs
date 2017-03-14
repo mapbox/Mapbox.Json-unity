@@ -25,7 +25,7 @@
 
 using System.Globalization;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
@@ -33,8 +33,8 @@ using System.Text;
 #if !(DNXCORE50 || PORTABLE40)
 using System;
 using System.Collections.Generic;
-using Newtonsoft.Json.Tests.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
+using Mapbox.Json.Tests.Serialization;
+using Mapbox.Json.Tests.TestObjects;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -42,18 +42,18 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json;
+using Mapbox.Json;
 using System.IO;
 using System.Xml;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Linq;
+using Mapbox.Json.Converters;
+using Mapbox.Json.Utilities;
+using Mapbox.Json.Linq;
 #if !NET20
 using System.Xml.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace Mapbox.Json.Tests.Converters
 {
     [TestFixture]
     public class XmlNodeConverterTest : TestFixtureBase
@@ -2068,10 +2068,10 @@ namespace Newtonsoft.Json.Tests.Converters
 
         private static void JsonBodyToSoapXml(Stream json, Stream xml)
         {
-            Newtonsoft.Json.JsonSerializerSettings settings = new Newtonsoft.Json.JsonSerializerSettings();
-            settings.Converters.Add(new Newtonsoft.Json.Converters.XmlNodeConverter());
-            Newtonsoft.Json.JsonSerializer serializer = Newtonsoft.Json.JsonSerializer.Create(settings);
-            using (Newtonsoft.Json.JsonTextReader reader = new Newtonsoft.Json.JsonTextReader(new System.IO.StreamReader(json)))
+			Mapbox.Json.JsonSerializerSettings settings = new Mapbox.Json.JsonSerializerSettings();
+            settings.Converters.Add(new Mapbox.Json.Converters.XmlNodeConverter());
+			Mapbox.Json.JsonSerializer serializer = Mapbox.Json.JsonSerializer.Create(settings);
+            using (Mapbox.Json.JsonTextReader reader = new Mapbox.Json.JsonTextReader(new System.IO.StreamReader(json)))
             {
                 XmlDocument doc = (XmlDocument)serializer.Deserialize(reader, typeof(XmlDocument));
                 if (reader.Read() && reader.TokenType != JsonToken.Comment)

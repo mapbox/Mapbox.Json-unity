@@ -28,11 +28,11 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.IO;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Linq;
+using Mapbox.Json.Serialization;
+using Mapbox.Json.Utilities;
+using Mapbox.Json.Linq;
 
-namespace Newtonsoft.Json.Bson
+namespace Mapbox.Json.Bson
 {
     /// <summary>
     /// Represents a reader that provides fast, non-cached, forward-only access to serialized BSON data.

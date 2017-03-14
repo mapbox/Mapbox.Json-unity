@@ -29,18 +29,18 @@ using System.Globalization;
 #if HAVE_BIG_INTEGER
 using System.Numerics;
 #endif
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Linq;
+using Mapbox.Json.Utilities;
 using System.Xml;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
+using Mapbox.Json.Converters;
+using Mapbox.Json.Serialization;
 using System.Text;
 #if HAVE_XLINQ
 using System.Xml.Linq;
 
 #endif
 
-namespace Newtonsoft.Json
+namespace Mapbox.Json
 {
     /// <summary>
     /// Provides methods for converting between .NET types and JSON types.

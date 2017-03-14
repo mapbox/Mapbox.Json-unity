@@ -25,9 +25,9 @@
 
 using System;
 using System.Reflection;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Converters
+namespace Mapbox.Json.Converters
 {
     /// <summary>
     /// Creates a custom object.

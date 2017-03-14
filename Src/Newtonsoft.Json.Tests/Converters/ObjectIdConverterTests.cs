@@ -24,8 +24,8 @@
 #endregion
 
 using System.IO;
-using Newtonsoft.Json.Bson;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Bson;
+using Mapbox.Json.Utilities;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -35,7 +35,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace Mapbox.Json.Tests.Converters
 {
     [TestFixture]
     public class ObjectIdConverterTests : TestFixtureBase

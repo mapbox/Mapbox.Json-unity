@@ -33,17 +33,17 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Schema;
-using Newtonsoft.Json.Linq;
+using Mapbox.Json.Schema;
+using Mapbox.Json.Linq;
 using System.IO;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
+using Mapbox.Json.Tests.TestObjects;
+using Mapbox.Json.Tests.TestObjects.Organization;
 #if !(DNXCORE50)
 using System.Data;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Schema
+namespace Mapbox.Json.Tests.Schema
 {
     [TestFixture]
     public class ExtensionsTests : TestFixtureBase

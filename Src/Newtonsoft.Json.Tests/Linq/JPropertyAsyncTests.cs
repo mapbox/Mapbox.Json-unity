@@ -25,7 +25,7 @@
 
 #if !(NET20 || NET35 || NET40 || PORTABLE40)
 
-using Newtonsoft.Json.Linq;
+using Mapbox.Json.Linq;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -36,7 +36,7 @@ using NUnit.Framework;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Newtonsoft.Json.Tests.Linq
+namespace Mapbox.Json.Tests.Linq
 {
     [TestFixture]
     public class JPropertyAsyncTests : TestFixtureBase

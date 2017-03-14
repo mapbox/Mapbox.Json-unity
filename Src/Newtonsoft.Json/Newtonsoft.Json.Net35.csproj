@@ -8,8 +8,8 @@
     <ProjectGuid>{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Newtonsoft.Json</RootNamespace>
-    <AssemblyName>Newtonsoft.Json</AssemblyName>
+    <RootNamespace>Mapbox.Json</RootNamespace>
+    <AssemblyName>Mapbox.Json</AssemblyName>
     <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>
     </AssemblyOriginatorKeyFile>
@@ -55,7 +55,7 @@
     <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS;$(DefineConstants);$(AdditionalConstants)</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Net35\Newtonsoft.Json.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\Net35\Mapbox.Json.xml</DocumentationFile>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <CodeAnalysisRules>
     </CodeAnalysisRules>
@@ -70,7 +70,7 @@
     <DefineConstants>TRACE;CODE_ANALYSIS;$(DefineConstants);$(AdditionalConstants)</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Net35\Newtonsoft.Json.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Net35\Mapbox.Json.xml</DocumentationFile>
     <CodeAnalysisRuleSet>Newtonsoft.Json.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>

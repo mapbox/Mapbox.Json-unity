@@ -28,8 +28,8 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Reflection;
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
+using Mapbox.Json.Serialization;
+using Mapbox.Json.Tests.TestObjects;
 #if !(NET20 || NET35 || PORTABLE) || NETSTANDARD1_1
 using System.Numerics;
 #endif
@@ -42,13 +42,13 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Bson;
+using Mapbox.Json.Bson;
 using System.IO;
-using Newtonsoft.Json.Tests.Serialization;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Linq;
+using Mapbox.Json.Tests.Serialization;
+using Mapbox.Json.Utilities;
+using Mapbox.Json.Linq;
 
-namespace Newtonsoft.Json.Tests.Bson
+namespace Mapbox.Json.Tests.Bson
 {
     [TestFixture]
     public class BsonReaderTests : TestFixtureBase

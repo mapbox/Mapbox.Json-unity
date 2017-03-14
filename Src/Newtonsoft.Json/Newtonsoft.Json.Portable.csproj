@@ -6,8 +6,8 @@
     <ProjectGuid>{959F7F85-C98B-4876-971A-9036224578E4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Newtonsoft.Json</RootNamespace>
-    <AssemblyName>Newtonsoft.Json</AssemblyName>
+    <RootNamespace>Mapbox.Json</RootNamespace>
+    <AssemblyName>Mapbox.Json</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -32,9 +32,10 @@
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\Portable\</OutputPath>
     <IntermediateOutputPath>obj\Release\Portable\</IntermediateOutputPath>
-    <DefineConstants>TRACE;CODE_ANALYSIS;$(DefineConstants);$(AdditionalConstants)</DefineConstants><ErrorReport>prompt</ErrorReport>
+    <DefineConstants>TRACE;CODE_ANALYSIS;$(DefineConstants);$(AdditionalConstants)</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Portable\Newtonsoft.Json.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Portable\Mapbox.Json.xml</DocumentationFile>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <CodeAnalysisRuleSet>Newtonsoft.Json.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>

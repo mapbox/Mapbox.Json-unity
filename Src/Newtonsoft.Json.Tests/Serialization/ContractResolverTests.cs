@@ -36,19 +36,19 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
+using Mapbox.Json.Serialization;
+using Mapbox.Json.Tests.TestObjects;
+using Mapbox.Json.Tests.TestObjects.Organization;
 using System.Reflection;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 using System.Globalization;
-using Newtonsoft.Json.Linq;
+using Mapbox.Json.Linq;
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Mapbox.Json.Tests.Serialization
 {
     public class DynamicContractResolver : DefaultContractResolver
     {

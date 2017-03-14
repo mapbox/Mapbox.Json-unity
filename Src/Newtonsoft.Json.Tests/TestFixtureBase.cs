@@ -30,7 +30,7 @@ using System.IO;
 using System.Reflection;
 using System.Text.RegularExpressions;
 #if (NET20 || NET35)
-using Newtonsoft.Json.Serialization;
+using Mapbox.Json.Serialization;
 #else
 using System.Runtime.Serialization.Json;
 #endif
@@ -43,19 +43,19 @@ using XAssert = Xunit.Assert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 using System.Collections;
 #if !(NET20 || NET35 || NET40 || PORTABLE40)
 using System.Threading.Tasks;
 #endif
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Tests
+namespace Mapbox.Json.Tests
 {
     public class TestReflectionUtils
     {

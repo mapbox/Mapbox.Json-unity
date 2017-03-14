@@ -25,7 +25,7 @@
 
 using System;
 
-namespace Newtonsoft.Json.Utilities
+namespace Mapbox.Json.Utilities
 {
     internal enum ParserTimeZone
     {

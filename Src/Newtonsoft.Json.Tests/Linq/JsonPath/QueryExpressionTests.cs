@@ -26,8 +26,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Linq.JsonPath;
+using Mapbox.Json.Linq;
+using Mapbox.Json.Linq.JsonPath;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -37,7 +37,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Linq.JsonPath
+namespace Mapbox.Json.Tests.Linq.JsonPath
 {
     [TestFixture]
     public class QueryExpressionTests : TestFixtureBase

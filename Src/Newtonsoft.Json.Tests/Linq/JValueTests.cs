@@ -27,7 +27,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
+using Mapbox.Json.Tests.TestObjects;
 #if !(NET20 || NET35 || PORTABLE) || NETSTANDARD1_1
 using System.Numerics;
 #endif
@@ -39,16 +39,16 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Linq;
+using Mapbox.Json.Linq;
 using System.Globalization;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
-using Newtonsoft.Json.Tests.Serialization;
+using Mapbox.Json.Tests.Serialization;
 
-namespace Newtonsoft.Json.Tests.Linq
+namespace Mapbox.Json.Tests.Linq
 {
     [TestFixture]
     public class JValueTests : TestFixtureBase

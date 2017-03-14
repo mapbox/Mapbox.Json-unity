@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Bson
+namespace Mapbox.Json.Bson
 {
     /// <summary>
     /// Represents a BSON Oid (object id).

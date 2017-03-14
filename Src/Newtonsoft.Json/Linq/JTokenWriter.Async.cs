@@ -27,9 +27,9 @@
 
 using System.Threading;
 using System.Threading.Tasks;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Linq
+namespace Mapbox.Json.Linq
 {
     public partial class JTokenWriter
     {

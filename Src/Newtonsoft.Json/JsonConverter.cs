@@ -26,10 +26,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Schema;
+using Mapbox.Json.Utilities;
+using Mapbox.Json.Schema;
 
-namespace Newtonsoft.Json
+namespace Mapbox.Json
 {
     /// <summary>
     /// Converts an object to and from JSON.

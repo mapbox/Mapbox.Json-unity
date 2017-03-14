@@ -25,10 +25,10 @@
 
 using System;
 using System.Collections.Generic;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Linq;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Schema
+namespace Mapbox.Json.Schema
 {
     [Obsolete("JSON Schema validation has been moved to its own package. See http://www.newtonsoft.com/jsonschema for more details.")]
     internal class JsonSchemaModel

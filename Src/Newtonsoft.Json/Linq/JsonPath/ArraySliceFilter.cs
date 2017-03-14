@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 
-namespace Newtonsoft.Json.Linq.JsonPath
+namespace Mapbox.Json.Linq.JsonPath
 {
     internal class ArraySliceFilter : PathFilter
     {

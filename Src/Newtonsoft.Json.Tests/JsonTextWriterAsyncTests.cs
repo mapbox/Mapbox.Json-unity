@@ -33,8 +33,8 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Tests.TestObjects.JsonTextReaderTests;
+using Mapbox.Json.Utilities;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -43,7 +43,7 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 
-namespace Newtonsoft.Json.Tests
+namespace Mapbox.Json.Tests
 {
     [TestFixture]
     public class JsonTextWriterAsyncTests : TestFixtureBase

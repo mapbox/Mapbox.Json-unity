@@ -37,9 +37,9 @@ using Microsoft.CSharp.RuntimeBinder;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Globalization;
-using Newtonsoft.Json.Serialization;
+using Mapbox.Json.Serialization;
 
-namespace Newtonsoft.Json.Utilities
+namespace Mapbox.Json.Utilities
 {
     internal static class DynamicUtils
     {

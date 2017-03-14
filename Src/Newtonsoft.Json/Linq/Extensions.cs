@@ -25,16 +25,16 @@
 
 using System;
 using System.Collections.Generic;
-using Newtonsoft.Json.Utilities;
+using Mapbox.Json.Utilities;
 using System.Globalization;
 #if !HAVE_LINQ
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Mapbox.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Linq
+namespace Mapbox.Json.Linq
 {
     /// <summary>
     /// Contains the LINQ to JSON extension methods.
