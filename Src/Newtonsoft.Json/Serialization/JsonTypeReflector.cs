@@ -477,12 +477,13 @@ namespace Mapbox.Json.Serialization
             get
             {
 #if !(PORTABLE40 || PORTABLE || DOTNET)
-                if (DynamicCodeGeneration)
+#if !UNITY3D
+				if (DynamicCodeGeneration)
                 {
                     return DynamicReflectionDelegateFactory.Instance;
                 }
-
-                return LateBoundReflectionDelegateFactory.Instance;
+#endif
+				return LateBoundReflectionDelegateFactory.Instance;
 #else
                 return ExpressionReflectionDelegateFactory.Instance;
 #endif

@@ -1279,16 +1279,18 @@ namespace Mapbox.Json.Serialization
             IValueProvider valueProvider;
 
 #if !(PORTABLE40 || PORTABLE || DOTNET)
+#if !UNITY3D
             if (DynamicCodeGeneration)
             {
                 valueProvider = new DynamicValueProvider(member);
             }
             else
-            {
-                valueProvider = new ReflectionValueProvider(member);
+#endif
+			{
+				valueProvider = new ReflectionValueProvider(member);
             }
 #elif !(PORTABLE40)
-            valueProvider = new ExpressionValueProvider(member);
+			valueProvider = new ExpressionValueProvider(member);
 #else
             valueProvider = new ReflectionValueProvider(member);
 #endif
